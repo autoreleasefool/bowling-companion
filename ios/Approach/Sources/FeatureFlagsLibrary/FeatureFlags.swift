@@ -17,9 +17,11 @@ extension FeatureFlag {
 	public static let sharingStatistic = Self(name: "sharingStatistic", introduced: "2024-04-27", stage: .release)
 	public static let photoAvatars = Self(name: "photoAvatars", introduced: "2024-07-05", stage: .development)
 	public static let bowlerDetails = Self(name: "bowlerDetails", introduced: "2024-07-05", stage: .development)
+	public static let badges = Self(name: "badges", introduced: "2024-08-11", stage: .development)
 
 	public static let allFlags: [Self] = [
 		.alleyAndGearAverages,
+		.badges,
 		.bowlerDetails,
 		.dataImport,
 		.developerOptions,
